@@ -1,0 +1,5 @@
+fun: All the custom patches used in my game.
+drops: Enemies will always drop their unique drops.
+dropsoff: Turns it off.
+spawner: Enemies never stop spawning.
+spawneroff: They stop spawning.
