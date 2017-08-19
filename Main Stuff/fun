@@ -4024,3 +4024,41 @@
 			set GD_Shields.Accessory.Accessory2_Roid_LoveThumper rarity (BaseValueConstant=5)
 		//Grog
 			set GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle rarity (BaseValueConstant=501)
+
+//Legendary Killer Adjustment
+		set GD_Lobelia_ClassMods.A_Item_Assassin.ClassMod_Assassin_LegendaryKiller AttributeSlotEffects ((SlotName="PrimaryStatBonus",bExternalSlot=True,bRunEffectsAsSkill=False,AttributeToModify=AttributeDefinition'D_Attributes.GameplayAttributes.PlayerCriticalHitBonus',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.100000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_StatBonus_Weak',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.010000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=False,bIncludeAlliesAsTarget=True,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=),(SlotName="Skill1",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=InventoryAttributeDefinition'GD_Assassin_Skills.SkillGradeModifiers.Killer',ConstraintAttribute=None,ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_BaseSkillPointCalculation',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.340000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=True,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=),(SlotName="Skill2",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=InventoryAttributeDefinition'GD_Assassin_Skills.SkillGradeModifiers.Headshot',ConstraintAttribute=None,ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_BaseSkillPointCalculation',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.340000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=True,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=),(SlotName="Skill3",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=InventoryAttributeDefinition'GD_Assassin_Skills.SkillGradeModifiers.FastHands',ConstraintAttribute=None,ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_BaseSkillPointCalculation',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.340000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=True,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=),(SlotName="Skill4",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=InventoryAttributeDefinition'GD_Assassin_Skills.SkillGradeModifiers.Innervate',ConstraintAttribute=None,ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_BaseSkillPointCalculation',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.340000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=True,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=),(SlotName="Skill5",bExternalSlot=True,bRunEffectsAsSkill=True,AttributeToModify=InventoryAttributeDefinition'GD_Assassin_Skills.SkillGradeModifiers.Followthrough',ConstraintAttribute=None,ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_ClassMods.Misc.Init_BaseSkillPointCalculation',BaseValueScaleConstant=1.000000),PerGradeUpgrade=(BaseValueConstant=0.340000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bIncludeInFunStats=True,bIncludeAlliesAsTarget=False,bEnforceMinimumGrade=True,bEnforceMaximumGrade=False,MinimumGrade=0,MaximumGrade=0,TargetInstanceDataName=))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
