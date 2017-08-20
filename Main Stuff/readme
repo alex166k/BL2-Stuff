@@ -3,3 +3,4 @@ drops: Enemies will always drop their unique drops.
 dropsoff: Turns it off.
 spawner: Enemies never stop spawning.
 spawneroff: They stop spawning.
+AlwaysElementalSandhawk: Makes the Sandhawk more or less always elemental (not slag).
