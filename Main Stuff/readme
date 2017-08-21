@@ -4,3 +4,5 @@ dropsoff: Turns it off.
 spawner: Enemies never stop spawning.
 spawneroff: They stop spawning.
 AlwaysElementalSandhawk: Makes the Sandhawk more or less always elemental (not slag).
+vendors: Makes the vendors a bit (a lot) better.
+vendorsoff: Makes teh vendors work with Torgue Machines and still be good (just reverts it to what's in the "fun" patch).
