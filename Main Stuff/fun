@@ -1943,7 +1943,7 @@
 
 						set GD_Aster_RaidBoss.M_Aster_RaidBoss Reward (ExperienceRewardPercentage=(BaseValueConstant=0.300000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),CurrencyRewardType=CURRENCY_Credits,CreditRewardMultiplier=(BaseValueConstant=6.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),OtherCurrencyReward=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),RewardItems=,RewardItemPools=(ItemPoolDefinition'GD_Aster_ItemPools.ButtstallionPools.ButtstallionCustomLootPool'))
 
-						set GD_Z2_ThresherRaid.M_ThresherRaid Reward (ExperienceRewardPercentage=(BaseValueConstant=0.300000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),CurrencyRewardType=CURRENCY_Credits,CreditRewardMultiplier=(BaseValueConstant=6.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),OtherCurrencyReward=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),RewardItems=,RewardItemPools=(ItemPoolDefinition'GD_Aster_ItemPools.ButtstallionPools.ButtstallionCustomLootPool'))
+						set GD_Z2_ThresherRaid.M_ThresherRaid Reward (ExperienceRewardPercentage=(BaseValueConstant=0.300000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),CurrencyRewardType=CURRENCY_Credits,CreditRewardMultiplier=(BaseValueConstant=6.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),OtherCurrencyReward=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),RewardItems=,RewardItemPools=(ItemPoolDefinition'GD_Itempools.Runnables.Pool_Terramorphous'))
 
 					#</Increase quest reward raid quests>
 
@@ -3147,8 +3147,6 @@
 		set GD_Iris_Weapons.Name.Title.Title_Unique_Cobra PartName Detonating Cobra
 		
 		set GD_Iris_Weapons.Name.Title.Title_Unique_Cobra:AttributePresentationDefinition_8 NoConstraintText <font color="#FFFF00">Chance to cause explosions<br><font color="#FFFFFF">•<font color="#C14242"> I LIKE IT!
-		
-		set GD_Weap_SniperRifles.Name.Prefix_Jakobs.Prefix_Mount3_Damage PartName PPZ
 		
 		set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra Parent Common_GunMaterials.Materials.Launcher.Mati_TedioreEpicRL
 
