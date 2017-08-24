@@ -3728,6 +3728,8 @@
 
 		set GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.GameplayAttributes.FootSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
 
+		set GD_Weap_pistol.Barrel.Pistol_Barrel_Dahl_Hornet WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-10000000000000000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=10000000000000000.000000)))
+		
 		set GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet ZoomWeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponAutomaticBurstCount',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
 
 		set GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet AttributeSlotUpgrades ((SlotName="WeaponMagSize",GradeIncrease=2,bActivateSlot=True)))
