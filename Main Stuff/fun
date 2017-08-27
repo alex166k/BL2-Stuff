@@ -2448,93 +2448,6 @@
 		
 		set GD_Aster_GrenadeMods.Delivery.Delivery_MagicMissileRare:AttributePresentationDefinition_4 Description Double the [slag]missiles[-slag], double the [slag]MAGIC![-slag]
 
-//Araignée
-		#<Araignée>
-
-			#<Description>
-
-				Based on Widowmaker from Overwatch's weapon of choice; The Widow's Kiss.
-
-				This gun fires like a typical Assault Rifle while firing from the hip.
-
-				When aiming down sights,
-
-				it becomes a hard-hitting Snipe Rifle in design.
-
-				The Sniper Rifle mode has decreased Fire Rate,
-
-				to simulate the chargeup to a 100% Power shot.
-
-				Sniper Rifle mode has an increased bullets per shot count at 3.
-
-			#</Description>
-
-			#<Code>
-
-				#<Name and Red Text>
-
-					set GD_Weap_AssaultRifle.Name.Title_Dahl.Title_Legendary_Veruc PartName Araignée
-
-					set GD_Weap_AssaultRifle.Name.Title_Dahl.Title_Legendary_Veruc:AttributePresentationDefinition_8 NoConstraintText Step into my parlor s'il vous plaît?
-
-					set GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc CustomPresentations (AttributePresentationDefinition'GD_Weap_Launchers.Barrel.L_Barrel_Vladof_Mongol:AttributePresentationDefinition_4')
-
-				#</Name and Red Text>
-
-				#<Weighted Parts>
-
-					set GD_Weap_AssaultRifle.A_Weapons_Legendary.AR_Dahl_5_Veruc:WeaponPartListCollectionDefinition_36 SightPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Bandit',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=0),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Dahl',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=0),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Vladof',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=0),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Torgue',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=0),(Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Jakobs',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=5)))
-
-					set GD_Weap_AssaultRifle.A_Weapons_Legendary.AR_Dahl_5_Veruc:PartList SightPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_AssaultRifle.Sight.AR_Sight_Jakobs',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=5)))
-
-				#</Weighted Parts>
-
-				#<Firing Mode>
-
-					#<AR Mode>
-
-						set GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc GestaltModeSkeletalMeshName AR_Barrel_Jakobs
-
-						set GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=30.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=4.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-0.400000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponExtraShotChance',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-10.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
-
-					#</AR Mode>
-
-					#<Sniper Mode>
-
-						set GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc ZoomWeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponBurstInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponAutomaticBurstCount',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=8.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectileSpeedMultiplier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=50.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=50.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponPerShotAccuracyImpulse',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-7000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=7000.000000)))
-
-						set GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc ZoomExternalAttributeEffects ((AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMinValue',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-40.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=0.000000)),(AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMaxValue',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-50.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=0.000000)))
-
-					#</Sniper Mode>
-
-					set GD_Weap_AssaultRifle.FiringModes.Bullet_Assault_Dahl_Veruc Speed 20000.000000
-
-					set GD_Weap_AssaultRifle.FiringModes.Bullet_Assault_Dahl_Veruc FiringPatternLines                ()
-
-					set GD_Weap_AssaultRifle.FiringModes.Bullet_Assault_Dahl_Veruc OnAnyImpact None
-
-				#</Firing Mode>
-
-			#</Code>
-
-			#<Skin>
-
-				set Common_GunMaterials.Materials.AssaultRifle.Mati_DahlLegendaryAR VectorParameterValues ((ParameterName="p_AColorHilight",ParameterValue=(R=0.200000,G=0.400000,B=1.000000,A=1.000000),ExpressionGUID=(A=384292798,B=1221323751,C=-2145405772,D=1872194118)),(ParameterName="p_AColorMidtone",ParameterValue=(R=0.0700000,G=0.250000,B=1.000000,A=1.000000),ExpressionGUID=(A=1102826245,B=1256298978,C=-1429881438,D=-507521102)),(ParameterName="p_AColorShadow",ParameterValue=(R=0.050000,G=0.075000,B=0.700000,A=1.000000),ExpressionGUID=(A=1481234158,B=1129012376,C=-688827739,D=-2119135160)),(ParameterName="p_BColorHilight",ParameterValue=(R=0.080653,G=0.080653,B=0.080653,A=1.000000),ExpressionGUID=(A=384292798,B=1221323751,C=-2145405772,D=1872194118)),(ParameterName="p_BColorMidtone",ParameterValue=(R=0.027780,G=0.027780,B=0.027780,A=1.000000),ExpressionGUID=(A=1102826245,B=1256298978,C=-1429881438,D=-507521102)),(ParameterName="p_BColorShadow",ParameterValue=(R=0.018813,G=0.018813,B=0.018813,A=1.000000),ExpressionGUID=(A=1481234158,B=1129012376,C=-688827739,D=-2119135160)),(ParameterName="p_CColorHilight",ParameterValue=(R=0.130653,G=0.130653,B=0.130653,A=1.000000),ExpressionGUID=(A=759765673,B=1280874949,C=257367956,D=-932702788)),(ParameterName="p_CColorMidtone",ParameterValue=(R=1.027780,G=0.127780,B=0.327780,A=1.000000),ExpressionGUID=(A=110180441,B=1232792373,C=-1232281417,D=-1030626065)),(ParameterName="p_CColorShadow",ParameterValue=(R=1.028813,G=0.128813,B=0.328813,A=1.000000),ExpressionGUID=(A=716329441,B=1214803259,C=-238071112,D=-1004122047)),(ParameterName="p_EmissiveColor",ParameterValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=(A=-2074486426,B=1296399582,C=-2021314681,D=-350758005)),(ParameterName="p_ReflectColor",ParameterValue=(R=0.997627,G=12.997627,B=0.037149,A=1.000000),ExpressionGUID=(A=295058103,B=1318551573,C=-2045449573,D=-547597976)),(ParameterName="p_DecalScalePosition",ParameterValue=(R=5.307855,G=1.000000,B=0.257300,A=0.000000),ExpressionGUID=(A=395540170,B=1243133493,C=-1264190552,D=123075385)),(ParameterName="p_DecalColor",ParameterValue=(R=1.495546,G=1.555677,B=1.601734,A=1.000000),ExpressionGUID=(A=1691998600,B=1239094551,C=2074257317,D=1844701893)),(ParameterName="p_PatternScalePosition",ParameterValue=(R=17.000000,G=17.000000,B=0.000000,A=0.000000),ExpressionGUID=(A=-2005018406,B=1132497243,C=-39915121,D=208423616)),(ParameterName="p_DColor",ParameterValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),ExpressionGUID=(A=696455109,B=1155878830,C=-1741888361,D=802120528)),(ParameterName="p_DecalChannel",ParameterValue=(R=0.000000,G=0.000000,B=0.000000,A=0.000000),ExpressionGUID=(A=1757499073,B=1097055033,C=-1266029657,D=1038353636)),(ParameterName="p_PatternChannelScale",ParameterValue=(R=0.0000000,G=0.000000,B=0.000000,A=0.000000),ExpressionGUID=(A=439432319,B=1091149893,C=-1991909502,D=1816944627)),(ParameterName="p_PatternColor",ParameterValue=(R=1.849763,G=1.959601,B=2.080377,A=1.000000),ExpressionGUID=(A=676539706,B=1125682796,C=1871983293,D=-2049503601)))
-
-				set Common_GunMaterials.Materials.AssaultRifle.Mati_DahlLegendaryAR ScalarParameterValues ((ParameterName="p_HighlightsIntensity",ParameterValue=4.000000,ExpressionGUID=(A=-1257568432,B=1277066486,C=-723473993,D=-1144384173)),(ParameterName="p_ShadowsIntensity",ParameterValue=4.000000,ExpressionGUID=(A=437293753,B=1205147708,C=-775723903,D=1480014964)),(ParameterName="p_DecalRotate",ParameterValue=0.500000,ExpressionGUID=(A=-276527909,B=1298581551,C=856978878,D=743944047)),(ParameterName="p_UseFullColorDecal",ParameterValue=0.000000,ExpressionGUID=(A=-1064329812,B=1077705328,C=339664807,D=1869745420)),(ParameterName="p_ReplaceDecal",ParameterValue=1.000000,ExpressionGUID=(A=85863466,B=1257609701,C=-728575820,D=1337098176)))
-
-				set Common_GunMaterials.Materials.AssaultRifle.Mati_DahlLegendaryAR TextureParameterValues ((ParameterName="p_Masks",ParameterValue=Texture2D'Weap_AssaultRifle.Tex.Weap_AssaultRifle_Comp',ExpressionGUID=(A=-330624041,B=1167251458,C=-335191907,D=-166684394)),(ParameterName="p_Diffuse",ParameterValue=nonTexture2D'Common_GunMaterials.CompTextures.Weap_AssaultSubSniper_Comps',ExpressionGUID=(A=1757607260,B=1326539502,C=-317215581,D=-565807463)),(ParameterName="p_NormalScopesEmissive",ParameterValue=Texture2D'Weap_AssaultRifles.Tex.Weap_AssaultRifle_Nrm',ExpressionGUID=(A=-1743872746,B=1126171774,C=119496871,D=-1952271718)),(ParameterName="p_Decal",ParameterValue=Texture2D'Common_GunMaterials.Logos.Logo_TorgueHyperionDahl_Comps',ExpressionGUID=(A=-923052711,B=1309861752,C=584229786,D=-1229888527)),(ParameterName="p_Pattern",ParameterValue=Texture2D'Common_GunMaterials.Patterns.Pattern_DahlLegendCamo1',ExpressionGUID=(A=534250533,B=1202550002,C=1578302861,D=-717876416)))
-
-			#</Skin>
-
-			#<Unused>
-
-				<font color="#ffffff"><br>? Functions like an <font color="#ce9561">Assault Rifle<font color="#FFFFFF"> when <font color="#ce9561">hip-firing.<font color="#FFFFFF"><br>? Functions like a <font color="#a777f4">Sniper Rifle<font color="#FFFFFF"> when <font color="#a777f4">zoomed.<br>? Sniper <font color="#FFFFFF">shots consume <font color="#fceaa4">3 ammo<font color="#FFFFFF"> but deal <font color="#fceaa4">increased damage.<font color="#FFFFFF">
-
-			#</Unused>
-
-		#</Araignée>
-
 //UVHM2 World Drop COMs
 		set GD_Itempools.ClassModPools.Pool_ClassMod_Assassin_05_Legendary BalancedItems ((ItmPoolDefinition=None,InvBalanceDefinition=ClassModBalanceDefinition'GD_ItemGrades.ClassMods.BalDef_ClassMod_Assassin_05_Legendary',Probability=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bDropOnDeath=True),(ItmPoolDefinition=None,InvBalanceDefinition=ClassModBalanceDefinition'GD_Lobelia_ItemGrades.ClassMods.BalDef_ClassMod_Lobelia_Assassin_05_Legendary',Probability=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bDropOnDeath=True))
 
@@ -4075,7 +3988,36 @@
 //Leech Upgrade
 		set GD_GrenadeMods.PartLists.Parts_Leech DeltaPartData (bEnabled=True,WeightedParts=((Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Explosive',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Incendiary',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade1',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade2',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade3',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade4',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Corrosive',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade1',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade2',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade3',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade4',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Shock',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Shock_Grade1',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Shock_Grade2',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Shock_Grade3',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Shock_Grade4',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Slag',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Slag_Grade1',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Slag_Grade2',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Slag_Grade3',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=GrenadeModPartDefinition'GD_GrenadeMods.Accessory.Accessory_Slag_Grade4',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2)))
 
+//Axton Tweaks
+		set Transient.SparkServiceConfiguration_6 Keys ("SparkOnDemandPatchEntry-FFYLTurrel1","SparkOnDemandPatchEntry-FFYLTurrel2")
 
+		set Transient.SparkServiceConfiguration_6 Values ("GD_Soldier_Streaming,GD_Soldier_Skills.Scorpio.Skill_Scorpio,SkillConstraints,,((bApplyConstraintOnActivatation=False,bApplyConstraintWhileActive=False,bApplyConstraintWhilePaused=False,OnFailure=SKILL_Deactivated,Evaluator=WeaponActionAvailableExpressionEvaluator'GD_Soldier_Skills.Scorpio.Skill_Scorpio:WeaponActionAvailableExpressionEvaluator_0',EvaluatorDefinitions=),(bApplyConstraintOnActivatation=True,bApplyConstraintWhileActive=True,bApplyConstraintWhilePaused=True,OnFailure=SKILL_Deactivated,Evaluator=None,EvaluatorDefinitions=(SkillExpressionEvaluatorDefinition'GD_PlayerShared.SkillConstraints.SkillConstraint_OnFootOrRidingInBack')))","GD_Soldier_Streaming,GD_Input.Contexts.InputContext_Injured,InputActions,,(InputActionDefinition'GD_Input.Actions.InputAction_ActionSkill')")
+
+		#<FFYLTurret>
+
+			#<Hotfixes>
+
+				#<hotfix><key>"SparkOnDemandPatchEntry-FFYLTurrel1"</key><value>"GD_Soldier_Streaming,GD_Soldier_Skills.Scorpio.Skill_Scorpio,SkillConstraints,,((bApplyConstraintOnActivatation=False,bApplyConstraintWhileActive=False,bApplyConstraintWhilePaused=False,OnFailure=SKILL_Deactivated,Evaluator=WeaponActionAvailableExpressionEvaluator'GD_Soldier_Skills.Scorpio.Skill_Scorpio:WeaponActionAvailableExpressionEvaluator_0',EvaluatorDefinitions=),(bApplyConstraintOnActivatation=True,bApplyConstraintWhileActive=True,bApplyConstraintWhilePaused=True,OnFailure=SKILL_Deactivated,Evaluator=None,EvaluatorDefinitions=(SkillExpressionEvaluatorDefinition'GD_PlayerShared.SkillConstraints.SkillConstraint_OnFootOrRidingInBack')))"</value><on>
+
+				#<hotfix><key>"SparkOnDemandPatchEntry-FFYLTurrel2"</key><value>"GD_Soldier_Streaming,GD_Input.Contexts.InputContext_Injured,InputActions,,(InputActionDefinition'GD_Input.Actions.InputAction_ActionSkill')"</value><on>
+
+			#</Hotfixes>
+
+		#</FFYLTurret>
+
+		#<patch>
+
+			#<hotfix><key>"SparkOnDemandPatchEntry-TurretRecall1"</key><value>"GD_Soldier_Streaming,GD_Siren.InputActions.InputAction_SirenSphere:Behavior_ActivateSkill_1,SkillToActivate,,SkillDefinition'GD_Soldier_Skills.Guerrilla.TacticalWithdrawal_Active'"</value><on>
+
+			#<hotfix><key>"SparkOnDemandPatchEntry-TurretRecall2"</key><value>"GD_Soldier_Streaming,GD_Soldier.InputDevices.InputDevice_SoldierKeyboard,Buttons,,((KeyName=F,PressActions=,TapActions=,HoldActions=(InputActionDefinition'GD_Siren.InputActions.InputAction_SirenSphere'),Caption=,KeyBindGroup=,RemapToDefaultLayoutInputAction=None))"</value><on>
+
+			#<hotfix><key>"SparkOnDemandPatchEntry-TurretRecall3"</key><value>"GD_Soldier_Streaming,GD_Soldier.InputContexts.InputContext_SoldierScorpio,InputActions,,(InputActionDefinition'GD_Input.Actions.InputAction_Jump',InputActionDefinition'GD_Input.Actions.InputAction_Duck',InputActionDefinition'GD_Input.Actions.InputAction_Use',InputActionDefinition'GD_Input.Actions.InputAction_UseSecondary',InputActionDefinition'GD_Input.Actions.InputAction_Pickup',InputActionDefinition'GD_Input.Actions.InputAction_PickupEquip',InputActionDefinition'GD_Input.Actions.InputAction_Melee',InputActionDefinition'GD_Input.Actions.InputAction_ThrowGrenade',InputActionDefinition'GD_Input.Actions.InputAction_Sprint',InputActionDefinition'GD_Input.Actions.InputAction_RevivePlayer',InputActionDefinition'GD_Input.Actions.InputAction_ActionSkill',InputActionDefinition'GD_Input.Actions.InputAction_Trade',InputActionDefinition'GD_Siren.InputActions.InputAction_SirenSphere')"</value><on>
+
+		#</patch>
+
+		set Transient.SparkServiceConfiguration_6 Keys ("SparkOnDemandPatchEntry-TurretRecall1","SparkOnDemandPatchEntry-TurretRecall2","SparkOnDemandPatchEntry-TurretRecall3")
+
+		set Transient.SparkServiceConfiguration_6 Values ("GD_Soldier_Streaming,GD_Siren.InputActions.InputAction_SirenSphere:Behavior_ActivateSkill_1,SkillToActivate,,SkillDefinition'GD_Soldier_Skills.Guerrilla.TacticalWithdrawal_Active'","GD_Soldier_Streaming,GD_Soldier.InputDevices.InputDevice_SoldierKeyboard,Buttons,,((KeyName=F,PressActions=,TapActions=,HoldActions=(InputActionDefinition'GD_Siren.InputActions.InputAction_SirenSphere'),Caption=,KeyBindGroup=,RemapToDefaultLayoutInputAction=None))","GD_Soldier_Streaming,GD_Soldier.InputContexts.InputContext_SoldierScorpio,InputActions,,(InputActionDefinition'GD_Input.Actions.InputAction_Jump',InputActionDefinition'GD_Input.Actions.InputAction_Duck',InputActionDefinition'GD_Input.Actions.InputAction_Use',InputActionDefinition'GD_Input.Actions.InputAction_UseSecondary',InputActionDefinition'GD_Input.Actions.InputAction_Pickup',InputActionDefinition'GD_Input.Actions.InputAction_PickupEquip',InputActionDefinition'GD_Input.Actions.InputAction_Melee',InputActionDefinition'GD_Input.Actions.InputAction_ThrowGrenade',InputActionDefinition'GD_Input.Actions.InputAction_Sprint',InputActionDefinition'GD_Input.Actions.InputAction_RevivePlayer',InputActionDefinition'GD_Input.Actions.InputAction_ActionSkill',InputActionDefinition'GD_Input.Actions.InputAction_Trade',InputActionDefinition'GD_Siren.InputActions.InputAction_SirenSphere')")
 
 
 
