@@ -111,6 +111,9 @@
 
 					set GD_Weap_Shotgun.Name.Title.Title__Unique_TidalWave:AttributePresentationDefinition_8 NoConstraintText OMG, what's it doing to Sanchez?!
 
+					set GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TidalWave rarity (BaseValueConstant=5)
+					
+					set GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TidalWave rarity (basevalueattribute=none)
 				#</Replace Tidal wave by Flayer>
 
 			#</Replacements>
