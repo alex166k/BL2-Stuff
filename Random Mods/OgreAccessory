@@ -1,0 +1,14 @@
+  //////////////////////////////////
+//Ogre Accessory from BL1           //
+//                                  //
+//Replaces Melee Accessory for ARs  //
+  //////////////////////////////////
+
+set GD_Weap_AssaultRifle.Name.Prefix_Vladof.Prefix_Bayonet_2 PartName Ogre
+
+set GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2 GestaltModeSkeletalMeshName None
+
+set GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2 WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.GameplayAttributes.PlayerCriticalHitBonus',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.250000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+
+set GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2 WeaponCardAttributes ((Attribute=AttributeDefinition'D_Attributes.GameplayAttributes.PlayerDamage',PriorityIncrease=0.500000),(Attribute=AttributeDefinition'D_Attributes.GameplayAttributes.PlayerCriticalHitBonus',PriorityIncrease=0.500000))
+
