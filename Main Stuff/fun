@@ -1,3 +1,14 @@
+//Slag+
+#</Description>
+
+#<Slag +50% on self>
+
+    #<code>set GD_Amp.Skills.Skill_AmplifyDamage SkillEffectDefinitions ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.ReceivedAmplifyDamageModifier',bIncludeDuelingTargets=False,bIncludeSelfAsTarget=False,bOnlyEffectTargetsInRange=False,bExcludeNonPlayerCharacters=False,EffectTarget=TARGET_Self,TargetInstanceDataName=,TargetCriteria=CRITERIA_None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Amp.Skills.Init_AmplifyDamageScale',BaseValueScaleConstant=1.000000),GradeToStartApplyingEffect=1,PerGradeUpgradeInterval=1,PerGradeUpgrade=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),BonusUpgradeList=),(AttributeToModify=AttributeDefinition'D_Attributes.DamageTypeModifers.AmpImpactDamageModifier',bIncludeDuelingTargets=False,bIncludeSelfAsTarget=False,bOnlyEffectTargetsInRange=False,bExcludeNonPlayerCharacters=False,EffectTarget=TARGET_Self,TargetInstanceDataName=,TargetCriteria=CRITERIA_None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Amp.Skills.Init_AmplifyDamageScale',BaseValueScaleConstant=-0.500000),GradeToStartApplyingEffect=1,PerGradeUpgradeInterval=1,PerGradeUpgrade=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),BonusUpgradeList=))</code><inProfile = Test1><on>
+
+#</Slag +50% on self>
+
+set GD_Amp.Skills.Skill_AmplifyDamage SkillEffectDefinitions ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.ReceivedAmplifyDamageModifier',bIncludeDuelingTargets=False,bIncludeSelfAsTarget=False,bOnlyEffectTargetsInRange=False,bExcludeNonPlayerCharacters=False,EffectTarget=TARGET_Self,TargetInstanceDataName=,TargetCriteria=CRITERIA_None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Amp.Skills.Init_AmplifyDamageScale',BaseValueScaleConstant=1.000000),GradeToStartApplyingEffect=1,PerGradeUpgradeInterval=1,PerGradeUpgrade=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),BonusUpgradeList=),(AttributeToModify=AttributeDefinition'D_Attributes.DamageTypeModifers.AmpImpactDamageModifier',bIncludeDuelingTargets=False,bIncludeSelfAsTarget=False,bOnlyEffectTargetsInRange=False,bExcludeNonPlayerCharacters=False,EffectTarget=TARGET_Self,TargetInstanceDataName=,TargetCriteria=CRITERIA_None,ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Amp.Skills.Init_AmplifyDamageScale',BaseValueScaleConstant=-0.500000),GradeToStartApplyingEffect=1,PerGradeUpgradeInterval=1,PerGradeUpgrade=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),BonusUpgradeList=))
+
 //Shadow's Patch
 		#<patch>
 
@@ -6923,7 +6934,8 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
 
 		set Common_GunMaterials.Materials.SMG.Mati_Hyperion_UniqueSMG_Commerce Parent MaterialInstanceConstant'Common_GunMaterials.MasterMaterials.Hyperion.MasterMati_HyperionEpic'
 
-		
+//AimInFFYL
+		set GD_Input.Contexts.InputContext_Injured InputSets (InputSetDefinition'GD_Input.Sets.InputSet_Injured',InputSetDefinition'GD_Input.Sets.InputSet_QuickSelect',InputSetDefinition'GD_Input.Sets.InputSet_AlwaysAvailable',InputSetDefinition'GD_Input.Sets.InputSet_WeaponActions')
 		
 		
 		
