@@ -2335,7 +2335,7 @@
 		
 		set GD_Iris_Weapons.Name.Title.Title_Unique_Cobra PartName Detonating Cobra
 		
-		set GD_Iris_Weapons.Name.Title.Title_Unique_Cobra:AttributePresentationDefinition_8 NoConstraintText <font color="#FFFF00">Chance to cause explosions<br><font color="#FFFFFF">•<font color="#C14242"> I LIKE IT!
+		set GD_Iris_Weapons.Name.Title.Title_Unique_Cobra:AttributePresentationDefinition_8 NoConstraintText <font color="#FFFF00">Chance to cause explosions<br><font color="#FFFFFF">?<font color="#C14242"> I LIKE IT!
 
 		set GD_Iris_Weapons.SniperRifles.SR_Barrel_Dahl_Cobra rarity (basevalueattribute=none)
 
@@ -2838,7 +2838,7 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
 
 		set GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.GameplayAttributes.FootSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
 
-		set GD_Weap_pistol.Barrel.Pistol_Barrel_Dahl_Hornet WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-10000000000000000.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=10000000000000000.000000)))
+		set GD_Weap_pistol.Barrel.Pistol_Barrel_Dahl_Hornet WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=-2.000000)))
 		
 		set GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet ZoomWeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponAutomaticBurstCount',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
 
@@ -2916,7 +2916,7 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
 
 		set GD_Weap_SMG.Name.Title.Title__Unique_Chulainn PartName Dynamite
 
-		set GD_Weap_SMG.Name.Title.Title__Unique_Chulainn:AttributePresentationDefinition_8 NoConstraintText BLOW UP THE OCEAN!!!<font color="#ffffff"><br>• <font color="#fff836">Explosive<font color="#ffffff"> damage.<font color"#f2f2f2">
+		set GD_Weap_SMG.Name.Title.Title__Unique_Chulainn:AttributePresentationDefinition_8 NoConstraintText BLOW UP THE OCEAN!!!<font color="#ffffff"><br>? <font color="#fff836">Explosive<font color="#ffffff"> damage.<font color"#f2f2f2">
 
 
 		set GD_Weap_SMG.Barrel.SMG_Barrel_Chulainn WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.250000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=0.100000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.85000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=0.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.330000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
@@ -3091,7 +3091,7 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
 		//Aesthetic
 		set GD_Weap_SniperRifles.Name.Title_Hyperion.Title_Legendary_Invader PartName Melting Point
 		
-		set GD_Weap_SniperRifles.Name.Title_Hyperion.Title_Legendary_Invader:AttributePresentationDefinition_8 NoConstraintText Burn. Everything. <br><font color="#ffffff">• Fires <font color="#ff3300">Dual Element <font color="#ffffff">bullets that are <font color="#ff8000">Incindiary <font color="#ffffff">and <font color="#00ff00">Corrosive<font color="#ffffff">.
+		set GD_Weap_SniperRifles.Name.Title_Hyperion.Title_Legendary_Invader:AttributePresentationDefinition_8 NoConstraintText Burn. Everything. <br><font color="#ffffff">? Fires <font color="#ff3300">Dual Element <font color="#ffffff">bullets that are <font color="#ff8000">Incindiary <font color="#ffffff">and <font color="#00ff00">Corrosive<font color="#ffffff">.
 		
 		set GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader GestaltModeSkeletalMeshName SR_Barrel_Maliwan
 		
@@ -5298,16 +5298,18 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
 
 						set GD_Orchid_BossWeapons.Name.Title.Title__Unique_Cutlass:AttributePresentationDefinition_0 NoConstraintText Perfect for beating Hector's bitch ass.
 
+						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier GestaltModeSkeletalMeshName AR_Barrel_Jakobs
+						
 						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier ManufacturerDefinitionForScopeMovie ManufacturerDefinition'GD_Manufacturers.Manufacturers.Dahl'
 
-						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.400000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponPerShotAccuracyImpulse',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-0.06000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=7.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000))
+						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.0000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponPerShotAccuracyImpulse',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-0.06000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=7.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000))
 
 						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=2.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.ReceivedMeleeDamageModifier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMinValue',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-1.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=ResourcePoolAttributeDefinition'D_Attributes.AccuracyResourcePool.AccuracyMaxValue',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-0.400000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
 
 						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier AttributeSlotUpgrades (SlotName="WeaponFireRate",GradeIncrease=0,bActivateSlot=True),(SlotName="WeaponSpread",GradeIncrease=0,bActivateSlot=True),(SlotName="AccuracyMin",GradeIncrease=0,bActivateSlot=True),(SlotName="WeaponAccuracyImpulse",GradeIncrease=0,bActivateSlot=True))
 
 						set GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier CustomFiringModeDefinition FiringModeDefinition'GD_Sage_RaidWeapons.FiringModes.Bullet_Assault_LeadStorm'
-						
+					
 						set GD_Sage_RaidWeapons.FiringModes.Bullet_Assault_LeadStorm DamageTypeDefinition WillowDamageTypeDefinition'GD_Explosive.DamageType.DmgType_Explosive_Impact'
 
 						set GD_Sage_RaidWeapons.FiringModes.Bullet_Assault_LeadStorm OnAnyImpact (Behavior_Explode'GD_Aster_Weapons.FiringModes.Bullet_Assault_Ogre:Behavior_Explode_5')
@@ -6821,4 +6823,3 @@ set Iris_GunMaterials.Materials.sniper.Mati_JakobsUniqueSR_Cobra ScalarParameter
     #</Jakobs Knockback (Disabled by default)>
 
 #</BL 1 Colors>
-
