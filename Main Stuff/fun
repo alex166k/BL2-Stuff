@@ -6953,8 +6953,6 @@ set GD_Amp.Skills.Skill_AmplifyDamage SkillEffectDefinitions ((AttributeToModify
 		##########################
 		
 //BL1 Rose (Cracked Sash)
-		set GD_Itempools.Runnables.Pool_Foreman BalancedItems ((ItmPoolDefinition=None,InvBalanceDefinition=InventoryBalanceDefinition'GD_ItemGrades.Shields.ItemGrade_Gear_Shield_Nova_Singularity',Probability=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common',BaseValueScaleConstant=1.000000),bDropOnDeath=True),(ItmPoolDefinition=None,InvBalanceDefinition=InventoryBalanceDefinition'GD_ItemGrades.Shields.ItemGrade_Gear_Shield_Chimera_05_Legendary',Probability=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common',BaseValueScaleConstant=1.000000),bDropOnDeath=True))
-		
 		set GD_Shields.A_Item.Shield_Standard_CrackedSash ShieldType SHT_Juggernaut
 
 		set GD_Shields.A_Item.Shield_Standard_CrackedSash ShieldTypeFlashFrameName none
@@ -6973,8 +6971,6 @@ set GD_Amp.Skills.Skill_AmplifyDamage SkillEffectDefinitions ((AttributeToModify
 
 		set GD_Shields.Accessory.Accessory0_CrackedSash PrefixList ()
 
-		set GD_ItemGrades.Shields.ItemGrade_Gear_Shield_Chimera_05_Legendary Manufacturers ((Manufacturer=ManufacturerDefinition'GD_Manufacturers.Manufacturers.Hyperion',Grades=((GradeModifiers=(ExpLevel=1,CustomInventoryDefinition=None),GameStageRequirement=(MinGameStage=1,MaxGameStage=100),MinSpawnProbabilityModifier=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),MaxSpawnProbabilityModifier=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000))))
-
 		set GD_Shields.Accessory.Accessory0_CrackedSash AttributeSlotUpgrades ((SlotName="Capacity",GradeIncrease=65,bActivateSlot=True),(SlotName="RechargeRate",GradeIncrease=35,bActivateSlot=True),(SlotName="RechargeDelay",GradeIncrease=0,bActivateSlot=True))
 
 		set GD_Shields.Accessory.Accessory0_CrackedSash UIStatList ((bDisplayAsModifierOnly=False,AttributeStyle=ATTRSTYLE_JustNumber,SupplementalAttributeStyle=ATTRSTYLE_JustNumber,StatCombinationMethod=SCM_Multiply,Attribute=ResourcePoolAttributeDefinition'D_Attributes.ShieldResourcePool.ShieldMaxValue',ConstraintAttribute=None,SupplementalAttributeExpression=(AttributeOperand1=None,ComparisonOperator=OPERATOR_EqualTo,Operand2Usage=OPERAND_PreferAttribute,AttributeOperand2=None,ConstantOperand2=0.000000),SupplementalAttributeToAppend=None),(bDisplayAsModifierOnly=False,AttributeStyle=ATTRSTYLE_JustNumber,SupplementalAttributeStyle=ATTRSTYLE_JustNumber,StatCombinationMethod=SCM_Multiply,Attribute=ResourcePoolAttributeDefinition'D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate',ConstraintAttribute=None,SupplementalAttributeExpression=(AttributeOperand1=None,ComparisonOperator=OPERATOR_EqualTo,Operand2Usage=OPERAND_PreferAttribute,AttributeOperand2=None,ConstantOperand2=0.000000),SupplementalAttributeToAppend=None),(bDisplayAsModifierOnly=False,AttributeStyle=ATTRSTYLE_JustNumber,SupplementalAttributeStyle=ATTRSTYLE_JustNumber,StatCombinationMethod=SCM_Multiply,Attribute=ResourcePoolAttributeDefinition'D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay',ConstraintAttribute=None,SupplementalAttributeExpression=(AttributeOperand1=None,ComparisonOperator=OPERATOR_EqualTo,Operand2Usage=OPERAND_PreferAttribute,AttributeOperand2=None,ConstantOperand2=0.000000),SupplementalAttributeToAppend=None))
@@ -6992,10 +6988,6 @@ set GD_Amp.Skills.Skill_AmplifyDamage SkillEffectDefinitions ((AttributeToModify
 		set GD_Shields.Accessory.Accessory0_CrackedSash rarity (basevalueattribute=none)
 		
 		set GD_Shields.Accessory.Accessory0_CrackedSash rarity (basevalueconstant=500)
-		
-		set GD_ItemGrades.Shields.ItemGrade_Gear_Shield_Standard_CrackedSash Manufacturers ((Manufacturer=ManufacturerDefinition'GD_Manufacturers.Manufacturers.Anshin',Grades=((GradeModifiers=(ExpLevel=1,CustomInventoryDefinition=None),GameStageRequirement=(MinGameStage=0,MaxGameStage=0),MinSpawnProbabilityModifier=(BaseValueConstant=0.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),MaxSpawnProbabilityModifier=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000))))
-
-		set GD_Shields.Accessory.Accessory0_CrackedSash GestaltModeSkeletalMeshName Shield_Body_Anshin 
 
 //Brick
 		#<Brick>
