@@ -1,0 +1,13 @@
+#<Wardcliff Coil>
+
+	set GD_Weap_Launchers.Name.Title_Maliwan.Title_Barrel_Maliwan_Norfleet GestaltModeSkeletalMeshName L_Barrel_Torgue
+	
+	set GD_Weap_Launchers.Body.L_Body_Maliwan_4 GestaltModeSkeletalMeshName L_Body_Bandit_4
+
+	set GD_Weap_Launchers.Exhaust.L_Exhaust_Vladof GestaltModeSkeletalMeshName None
+
+	set GD_Weap_Launchers.A_Weapons_Unique.RL_Maliwan_Alien_Norfleet WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.00000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.750000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=0.025000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponAutomaticBurstCount',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=8.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=2.000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1.0000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+
+	set GD_Weap_Launchers.FiringModes.FM_Alien_Maliwan_Norfleet CustomFiringModeDefinition GD_Aster_RaidWeapons.AssaultRifles.Bullet_Pistol_Seeker_Homing
+
+#</Wardcliff Coil>
